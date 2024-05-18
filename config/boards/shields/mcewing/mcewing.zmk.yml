@@ -1,0 +1,11 @@
+file_format: "1"
+id: mcewing
+name: MCEWing
+type: shield
+url:
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - mcewing_left
+  - mcewing_right
