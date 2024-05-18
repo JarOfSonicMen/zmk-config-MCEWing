@@ -1,7 +1,7 @@
 #include "mcewing.dtsi"
 
 &kscan0 {
-
+#if 0
     diode-direction = "col2row";
 
     col-gpios
@@ -20,4 +20,5 @@
         , <&pro_micro  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
+#endif
 };
